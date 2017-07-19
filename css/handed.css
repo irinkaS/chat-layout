@@ -1,99 +1,131 @@
 @charset "utf-8";
+.common_flex_container {
+	display: -webkit-inline-flex; /* Safari */
+	display: inline-flex; /*отображает контейнер как строчный элемент*/
+	font-family: Roboto;
+	
+}
 .social-buttons {
 	width: 80px;
 	height: 1000px;
-	float: left;
 	background-color: #1d232a;
 }
-
-.social-buttons input{
-	margin-top: 32px;
-	padding: 0;
-	clear: both;
-	display: block;
+.social-buttons input {
+	margin-top: 20px;
 	margin-left: 24px;
-	
 }
-
-#hamburger_menu{
+#hamburger_menu {
 	margin-left: 31px;
 	margin-bottom: 58px;
-
 }
 .nav {
 	width: 230px;
 	height: 1000px;
-	float: left;
-	
-}
-
-.nav_theme_dark{
 	background-color: #1d232a;
 }
-
-.nav figure  {
-	font-family: Roboto;
+.nav figure {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 38px;
 	color: #a1a5a7;
-}
-nav figure  {
-	font-family: Roboto;
-	font-size: 10px;
-	font-weight: 400;
-	line-height: 38px;
-	color: #a1a5a7;
-}
-.nav figure{
 	margin-left: 30px;
 	margin-right: 30px;
 	border: none;
 	margin-top: 25px;
-
 }
-.nav_name{
+.nav__point {
+	display: table;
+}
+.nav_row {
+	display: table-row;
+}
+.nav_name {
 	text-align: left;
 	width: 130px;
+	display: table-cell;
 }
-
-.nav_num{
+.nav_num {
 	text-align: right;
 	width: 40px;
-	
+	display: table-cell;
 }
-
-.nav figcaption{
-	font-family: Roboto;
+.nav figcaption {
 	color: #ffffff;
 	font-size: 22px;
 	font-weight: 500;
 	line-height: 10px;
 	margin-bottom: 20px;
 	padding-bottom: 30px;
-	
 }
-
-#nav_main_caption{
-	margin-bottom: 50px;
-	padding-bottom: 50px;
-}
-.nav hr{
-	border: none;
+.nav hr {
 	color: #2b3138;
-	margin-top:25px;
+	margin-top: 25px;
 }
-
-#inbox{
+#inbox {
 	width: 230px;
 	height: 1000px;
-	float: left;
 }
 .search {
 }
-
-.chat{
+.chat {
 	width: 653px;
 	height: 1000px;
-	float: left;
+}
+.friendBar {
+	width: 277px;
+	height: 1000px;
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 30px;
+}
+.friendBar__friendName {
+	text-align: center;
+	color: #293037;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 38px;
+}
+.friendBar__friendAdress {
+	color: rgba(41, 48, 55, 0.7);
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+	
+}
+
+.friendBar .friendBar__friendAdress{
+	margin-bottom: 40px;
+}
+.friendInfo {
+	width: inherit;
+}
+.friendBar__personalData {
+	display: table;
+	display: table-row;
+	border-spacing: 15px;
+	text-align: justify;
+	margin: auto;
+	width: inherit;
+}
+.friendBar__category-name, .friendBar__category-data {
+	color: rgba(41, 48, 55, 0.8);
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 52px;
+	display: table-cell;
+	width: 177px;
+	padding-left: 20px;
+}
+.friendBar__category-data {
+	font-weight: 300;
+	width: 100px;
+	text-align: right;
+}
+
+.friendBar hr {
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+	text-align: center;
+	margin-left: 8%;
+	
 }
