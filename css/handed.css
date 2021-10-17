@@ -2,7 +2,7 @@
 .common_flex_container {
 	display: -webkit-inline-flex; /* Safari */
 	display: inline-flex; /*отображает контейнер как строчный элемент*/
-	font-family: Roboto;
+	font-family: Ariel;
 	
 }
 .social-buttons {
